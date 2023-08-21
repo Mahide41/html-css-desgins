@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+}
+
+/* header */
+header {
+  background: #fff;
+  padding: 16px 0px;
+}
+
+header .app-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+header .app-container nav {
+}
+header .app-container nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+header .app-container nav ul li {
+}
+
+header .app-container nav ul li a {
+  text-decoration: none;
+  color: #020202;
+  font-size: 18px;
+  transition: all ease-in-out 0.3s;
+}
+
+header .app-container nav ul li a:hover {
+  color: #ff4c0f;
+  transition: all ease-in-out 0.3s;
+}
+
+header .app-container .btn {
+  width: 150px;
+  background-color: #020202;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+}
+header .app-container .btn:hover {
+  background-color: #ff4c0f;
+  transition: all ease-in-out 0.3s;
+}
+header .app-container .btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* header end */
+
+/* hero section */
+
+.hero_section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+section .app-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+section .app-container .left_part {
+  width: 50%;
+}
+
+section .app-container .left_part h2 {
+  font-size: 60px;
+  color: #020202;
+}
+
+section .app-container .left_part p {
+  color: #585858;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+section .app-container .left_part .app-btn {
+  border: 1px solid rgba(215, 215, 215, 0.867);
+  width: 344px;
+  padding: 10px 35px;
+  border-radius: 500px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(88, 88, 88, 0.08) 0px 18px 25px;
+  margin-top: 20px;
+}
+
+section .app-container .left_part .app-btn .text a {
+  text-decoration: none;
+  color: #020202;
+}
+
+section .app-container .left_part .app-btn .icon {
+  background: #ff4c0f;
+  padding: 14px 18px;
+  border-radius: 500px;
+  color: #fff;
+}
